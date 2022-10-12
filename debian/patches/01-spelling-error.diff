@@ -1,0 +1,26 @@
+# Fix a spelling error.
+
+diff -Naur luckybackup-0.5.0.orig/manpage/luckybackup.8 luckybackup-0.5.0/manpage/luckybackup.8
+--- luckybackup-0.5.0.orig/manpage/luckybackup.8	2017-10-05 14:20:19.000000000 +0200
++++ luckybackup-0.5.0/manpage/luckybackup.8	2020-11-19 10:14:01.634494340 +0100
+@@ -49,7 +49,7 @@
+ .br
+ \fB \-c\fP
+ .br
+-	console mode. Use this, if there is no graphical envrironment available
++	console mode. Use this, if there is no graphical environment available
+ .br
+ \fB \-\-no\-questions\fP
+ .br
+diff -Naur luckybackup-0.5.0.orig/src/global.cpp luckybackup-0.5.0/src/global.cpp
+--- luckybackup-0.5.0.orig/src/global.cpp	2018-11-02 15:11:32.000000000 +0100
++++ luckybackup-0.5.0/src/global.cpp	2020-11-19 10:13:55.162523338 +0100
+@@ -496,7 +496,7 @@
+     cout << " --dry-run         : executes luckybackup in dry-run (simulation) mode\n";
+     cout << " --silent          : executes luckybackup in silent mode (just tray notification icon shown)\n";
+     cout << "\n";
+-    cout << " -c                : console mode. Use this, if there is no graphical envrironment available\n";
++    cout << " -c                : console mode. Use this, if there is no graphical environment available\n";
+     cout << " --no-questions: skips confirmation questions asked to user. Implies -c (console mode).\n\n";
+ 
+     cout << " [filename] is the already created profile that is going to be executed\n";
